@@ -1,0 +1,53 @@
+# Project Information
+site_name: PagerDuty Internal Stakeholder Communications Guide
+site_description: A collection of information about the PagerDuty internal stakeholder communications process and industry best practices. This guide will teach you how to create an effective internal stakeholder communications strategy.
+site_author: PagerDuty, Inc.
+site_url: https://stakeholders.pagerduty.com/
+
+# Repository
+repo_url: https://github.com/pagerduty/stakeholder-comms-docs
+
+# Copyright
+copyright: 'Copyright &copy; PagerDuty, Inc.'
+
+# Theme
+theme:
+  name: pagerduty
+  title: 'Stakeholder Communications'
+
+# Contents
+nav:
+  - Home: 'index.md'
+  - Definitions: 'definitions.md'
+  - Mechanisms: 'mechanisms.md'
+  - Considerations:
+    - Templatizing communications: 'considerations/templates.md'
+    - Frequency of communication: 'considerations/frequency.md'
+    - During the incident:
+      - Investigation phase: 'during/investigation.md'
+      - Identification phase: 'during/identification.md'
+      - Monitoring phase: 'during/monitoring.md'
+      - Resolution phase: 'during/resolution.md'
+  - Next Steps: 'nextsteps.md'
+  - Additional Resources: 'resources.md'
+
+# Analytics
+google_analytics: ['UA-8759953-1', 'auto']
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: '#'
+  - sane_lists:
+  - admonition:
+  - meta:
+  - pymdownx.details:
+  - pymdownx.extra:
+  - pymdownx.mark:
+  - pymdownx.tilde:
+  - pymdownx.highlight:
+  - pymdownx.superfences:
+  - pymdownx.tabbed:
+
+# Development URL, bind to local only.
+dev_addr: '127.0.0.1:8000'
